@@ -7,53 +7,49 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" href="style.css"> why i am not able to use external css file??????-->
-  <style>
-    .a {
-      border-top: 8px solid #4aaaa5;
-    }
+  <link rel="stylesheet" href="css/style.css">
 
-    .text-color {
-      color: #4aaaa5;
-    }
-    .bgteal{
-      background-color:  #4aaaa5;
-    }
-    .ml {
-      margin-left: 260px;
-    }
-    .bb{
-      border-bottom: 1px solid #777777;
-    }
-  </style>
+  <!-- <link rel="stylesheet" href="style.css"> why i am not able to use external css file??????-->
+  
 </head>
 
-<body>
+<body class="bg-img">
   <nav class="navbar navbar-light bg-light p-0 bb">
-    <span class="navbar-brand ml p-0 ">
+    <div class="navbar-brand ml p-0 ">
       <h3 class="text-light px-3 py-2 my-0 bgteal ">Dhanashree</h3>
+      </div>
+      <ul class="nav justify-content-right mr-5">
+        <li class="nav-item ">
+          <a class="nav-link " href="index1.html">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="contact.html">Contact</a>
+        </li>
+      </ul>
     </span>
   </nav>
 
   <!-- container starts here -->
-  <div class="container border w-auto mt-3">
-    <div class="row"></div>
+  <div class="container  w-auto mt-3">
     <div class="row">
-      <div class="col-0 col-md-2 col-lg-2 col-xl-2 m-0 p-0"></div>
+      <div class="col-0 col-md-2  m-0 p-0"></div>
       <!--  -->
       <div class="col-12 col-md-8 col-lg-8 col-xl-8 border ">
-        <h3 class="text-color">About me</h3>
+        <h3 class="text-color mt-2">About me</h3>
         <div class="row">
           <div class="col-12">
-            <hr class="secondary">
+            <hr class="mt-0">
           </div>
         </div>
         <div class="row">
-          <div class="col-4">
-            <img src="images/download.png">
+          <div class="col-4 p-0 ml-3">
+            <img class="w-100" src="images/new_me.jpg">
           </div>
-          <div class="col-8 bg-light">
-            <p class="float-left">About meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout
+          <div class="col-7 bg-light p-0">
+            <p class="float-left p-0 mx-3">About meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout
               meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout meAbout
               meAbout meAbout meAbout me</p>
           </div>
@@ -67,15 +63,17 @@
         </div>
       </div>
       <!--  -->
-      <div class="col-0 col-md-2 col-lg-2 col-xl-2 m-0 p-0"></div>
+      <div class="col-0 col-md-2 m-0 p-0"></div>
     </div>
     <div class="row"></div>
     <div class="row"></div>
   </div>
+  <!-- container ends here -->
+
   <!-- why border top is not working??? -->
   <!-- footer starts here -->
-  <footer class="navbar fixed-bottom navbar-dark bg-dark a">
-    <p class="align-center text-light p-2 m-0">copyrights@</p>
+  <footer class="fixed-bottom navbar-dark bg-dark a">
+    <p class="text-center text-light p-2 m-0">copyrights@</p>
   </footer>
 </body>
 

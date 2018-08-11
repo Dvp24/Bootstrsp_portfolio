@@ -7,37 +7,75 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <style>
-     .a {
-      border-top: 8px solid #4aaaa5;
-    }
-    .bgteal{
-      background-color:  #4aaaa5;
-    }
-    .text-color {
-      color: #4aaaa5;
-    }
-    .ml {
-      margin-left: 260px;
-    } 
-    .bb{
-      border-bottom: 1px solid #777777;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
   <nav class="navbar navbar-light bg-light p-0 bb">
-    <span class="navbar-brand ml p-0 ">
+    <div class="navbar-brand ml p-0 ">
       <h3 class="text-light px-3 py-2 my-0 bgteal ">Dhanashree</h3>
+    </div>
+
+    <ul class="nav justify-content-right mr-5">
+      <li class="nav-item ">
+        <a class="nav-link " href="index1.html">About</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " href="contact.html">Contact</a>
+      </li>
+    </ul>
     </span>
   </nav>
 
+  <!-- container starts here -->
+  <div class="container mt-3">
+    <div class="row">
+      <div class="d-none d-sm-block col-md-2 m-0 p-0"></div>
+      <!--  -->
+      <div class="col-12 col-md-8 border ">
+        <h3 class="text-color mt-2">Contact</h3>
+        <div class="row">
+          <div class="col-12">
+            <hr class="mt-0">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Smith">
+                <!-- how to get square corner input box????? -->
+                <!-- can i take out ID ?????? -->
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Email</label>
+                <input type="email" class="form-control rounded-0" id="exampleInputPassword1" placeholder="example@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Message</label>
+                <textarea type="email" class="form-control rounded-0" id="exampleInputPassword1" placeholder="example@gmail.com">
+                  </textarea>
+              </div>
+              <button type="submit" class="btn btn-primary rounded-0 ">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class=""></div>
+      </div>
+      <div class="d-none d-sm-block col-md-2 m-0 p-0"></div>
+    </div>
+  </div>
+  <!-- container ends here -->
 
-   <!-- footer starts here -->
-   <footer class="navbar fixed-bottom navbar-dark bg-dark a">
-      <p class="align-center text-light p-2 m-0">copyrights@</p>
-    </footer>
+  <!-- footer starts here -->
+  <footer class=" fixed-bottom navbar-dark bg-dark a">
+    <p class="text-center text-light p-2 m-0">copyrights@</p>
+  </footer>
 
 </body>
 

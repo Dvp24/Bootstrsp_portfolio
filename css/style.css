@@ -1,0 +1,40 @@
+.a {
+  border-top: 8px solid #4aaaa5;
+}
+hr{
+  color: #777777;
+}
+.bgteal {
+  background-color: #4aaaa5;
+}
+a{
+  color: #777777;
+}
+a:hover{
+  color: #4aaaa5;
+}
+.text-color {
+  color: #4aaaa5;
+}
+img{
+  width: 200px;
+}
+
+.ml {
+  margin-left: 260px;
+}
+
+.btn-primary {
+  background-color: #4aaaa5;
+  border: 0px;
+  margin-bottom: 10px;
+}
+.greyb{
+  border: #777777;
+}
+.bb {
+  border-bottom: 1px solid #777777;
+}
+.sm_font{
+  font-size:  10px;
+}
